@@ -21,9 +21,6 @@ jobs:
       with:
         go-version: '1.24.5'
 
-    - name: Install dependencies
-      run: apt-get install libpcre++-dev
-
     - name: Build
       run: go build -v ./src/*.go
 
