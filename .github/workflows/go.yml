@@ -21,6 +21,10 @@ jobs:
       with:
         go-version: '1.24.5'
 
+    - name: Run golangci-lint
+      uses: golangci/golangci-lint-action@v8.0.0
+
+
     # - name: Build
     #   run: go build -v ./src/*.go
 
