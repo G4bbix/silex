@@ -1,0 +1,10 @@
+github.com/G4bbix/go-pcre v0.0.0-20250729205326-c66dd9c1fb0e h1:uV0raEsgSK/+aV4K3niNHnYUU8rHiqigvcE888WNNj0=
+github.com/G4bbix/go-pcre v0.0.0-20250729205326-c66dd9c1fb0e/go.mod h1:Hm/SyHGPOQDq4K5AlemU7qQkMcjmjsft7Gi12jhSNz4=
+github.com/G4bbix/go-pcre v0.0.0-20250730074424-379fb5a0a237 h1:JO0tmR2RR6Gk9oounJPtjOhFmCfvtT6jnLu5zTKcldk=
+github.com/G4bbix/go-pcre v0.0.0-20250730074424-379fb5a0a237/go.mod h1:Hm/SyHGPOQDq4K5AlemU7qQkMcjmjsft7Gi12jhSNz4=
+github.com/G4bbix/go-pcre v0.0.0-20250730084331-fb96051d9d0b h1:ryDGkWoNkb5wBUG+KLuT1qiI7fzvZ3oj/nOTj364ue0=
+github.com/G4bbix/go-pcre v0.0.0-20250730084331-fb96051d9d0b/go.mod h1:Hm/SyHGPOQDq4K5AlemU7qQkMcjmjsft7Gi12jhSNz4=
+github.com/gijsbers/go-pcre v0.0.0-20161214203829-a84f3096ab3c h1:o5z/Stj4aWUiDiCVFdEOgXcwNF+Z7mQSlvDTaWBK98Q=
+github.com/gijsbers/go-pcre v0.0.0-20161214203829-a84f3096ab3c/go.mod h1:Bd83Kcti1U5OMXYYTjilhd6os+l6AmlTMVbDtaBvycQ=
+github.com/ompluscator/dynamic-struct v1.4.0 h1:I/Si9LZtItSwiTMe7vosEuIu2TKdOvWbE3R/lokpN4Q=
+github.com/ompluscator/dynamic-struct v1.4.0/go.mod h1:ADQ1+6Ox1D+ntuNwTHyl1NvpAqY2lBXPSPbcO4CJdeA=

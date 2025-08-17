@@ -1,0 +1,77 @@
+package main
+
+import (
+"fmt"
+ "github.com/ompluscator/dynamic-struct"
+
+)
+
+func BuildCastStruct(casts []string, regex string) error {
+	captureGroupOpen := false
+	nonCaptureGroupOpen := false
+
+	fmt.Println(casts)
+
+	fmt.Println(regex)
+
+	if regex[0] == '(' {
+		captureGroupOpen = true
+		fmt.Println("Open Capture")
+	} else {
+		nonCaptureGroupOpen = true
+		fmt.Println("Open non capture")
+		fmt.Println("Added non capture string")
+	}
+
+	escapeNextChar := false
+	capturesProcessed := 0
+
+	for i, char := range regex {
+		fmt.Printf("%d - %c\n", i, char)
+
+		if !captureGroupOpen && char == '(' && !escapeNextChar {
+			captureGroupOpen = true
+
+			if nonCaptureGroupOpen {
+				fmt.Println("  Added non capture")
+
+				nonCaptureGroupOpen = false
+			}
+		} else if !captureGroupOpen && !nonCaptureGroupOpen {
+			nonCaptureGroupOpen = true
+		} else if captureGroupOpen && char == ')' && !escapeNextChar {
+			captureGroupOpen = false
+			fmt.Println("  ADDED Capture")
+		}
+
+		if char == '\\' && !escapeNextChar {
+			escapeNextChar = true
+		} else {
+			escapeNextChar = false
+		}
+	}
+
+	// Want s, cs, s, cs
+
+	return nil
+}
+
+func modifyCastStruct(builder dynamicstruct.Builder, type interface{}, name string) dyndynamicstruct.Builder {
+
+	// typePar
+
+	// switch type {
+	// case 's':
+
+	// case 'i':
+	// case 'f':
+	// 	default:
+	// 		panic(fmt.Formatf("Unrecognised type found while generating cast struct: %c", type)
+	// }
+
+	var dyncStruct dynamdynamicstruct.Builder
+
+	if dydynamicstruct.Builder == nil {
+		dynStrct := dynamicstruct.NewStruct().AddField(name, type, name)
+	}
+}

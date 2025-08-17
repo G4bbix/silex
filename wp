@@ -1,0 +1,31 @@
+Silex whitepaper
+
+Steps:
+Match (m): Match a regex
+
+
+
+Parse (p): Parse variables from matched backrefs (default string)
+	example: -p "1 as int; 2 as float"
+
+
+Change (c): Change Matches/parses
+	- string:
+		- substitute
+		- reverse
+		- cut (substring)
+	- int:
+		- arithemtic: +, -, *, /, ^
+	- float
+		- arithemtic: +, -, *, /, ^
+Print:
+	- Default: Original indexes
+	- Custom str with backrefs
+
+
+Delemitation (d): Set how input string is delimited
+  - Default: Linebreak
+
+
+12 twelfe
+10 ten
